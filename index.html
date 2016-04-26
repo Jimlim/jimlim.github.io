@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<title>This is test page</title>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  </head>
+    <!-- jQuery, jQuery.ui -->
+    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 
-  <body>
-  	<h1>This is H1</h1>
-  	<h2>This is H2</h2>
-  	<h3>Here is another line using H3</h3>
-  	<h3 id="clickHere">This page is hosted in GitHub. Click this line.</h3>
-  </body>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script>
-  $("#clickHere").click(function(){
-  	alert("You clicked me.");
-  });
-</script>
+    <!-- React -->
+    <script src="https://fb.me/react-0.13.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
 
+    <!--Custom Styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>React Bulletin Board</title>
+</head>
+<body>
+    <div id="react-container"></div>
+    <script src="js/Note.js" type="text/babel" ></script>
+</body>
 </html>
