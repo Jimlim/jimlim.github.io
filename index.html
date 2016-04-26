@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>This is Ric test page</title>
+  	<title>This is test page</title>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   </head>
+
   <body>
   	<h1>This is H1</h1>
   	<h2>This is H2</h2>
   	<h3>Here is another line using H3</h3>
+  	<h3 id="clickHere">This page is hosted in GitHub</h3>
   </body>
-	
+
+<script>
+  $("#clickHere").click(function(){
+  	alert("You clicked me.");
+  });
+</script>
+
 </html>
